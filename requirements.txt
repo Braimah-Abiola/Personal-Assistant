@@ -1,0 +1,24 @@
+python 3.8.2
+valid Google API kEY
+
+The following python libaries are required:
+SpeechRecognition
+requests
+gTTS
+beautifulsoup4
+youtube-dl
+pyowm
+wikipedia
+vlc
+
+HOW TO INSTALL libaries
+
+To install a library enter command line (cmd) or terminal on MacOs and enter the following command
+
+pip install "Name of the library" 
+
+example: pip install beautifulsoup4
+
+
+
+
