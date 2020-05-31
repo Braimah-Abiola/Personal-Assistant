@@ -1,4 +1,4 @@
-# Required Modules for Personal Assistan
+# Required Modules for Personal Assistant
 import time
 import os
 import speech_recognition as sr
@@ -9,12 +9,9 @@ import sys
 import re
 import webbrowser
 import subprocess
-import smtplib
 import urllib.request
 import urllib.parse
 import json
-from bs4 import BeautifulSoup as soup
-from urllib3 import urlopen
 import wikipedia
 import random
 from time import strftime
@@ -107,22 +104,6 @@ def digital_assistant(data):
     if 'your name' in data:
         listening = True
         respond('my name is Bhyte')
-
-    if '' in data:
-        listening = True
-        respond()
-
-    if '' in data:
-        listening = True
-        respond()
-
-    if '' in data:
-        listening = True
-        respond()
-
-    if '' in data:
-        listening = True
-        respond()
 
     # Joke
     if 'joke' in data:
